@@ -1,0 +1,9 @@
+Building DaytraderCoin
+
+See doc/readme-qt.rst for instructions on building DaytraderCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of DaytraderCoin.
+
+See doc/build-*.txt for instructions on building DaytraderCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of DaytraderCoin.
