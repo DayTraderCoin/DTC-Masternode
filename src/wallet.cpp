@@ -3596,6 +3596,10 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
         else if (pindexPrev->nHeight+1 > 15) {
             masternodePayment = nReward * 0.5;
             devfee = nReward * 0.4;
+		}
+        else if (pindexPrev->nHeight+1 > 750) {
+            masternodePayment = nReward * 0.5;
+            devfee = nReward * 0.025;
         }
 
         blockValue = nCredit - devfee;
